@@ -13,6 +13,7 @@
 		6906337B298010B20019B410 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906337A298010B20019B410 /* FavoriteViewModel.swift */; };
 		6906337E298010F70019B410 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906337C298010F70019B410 /* FavoriteTableViewCell.swift */; };
 		6906337F298010F70019B410 /* FavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6906337D298010F70019B410 /* FavoriteTableViewCell.xib */; };
+		690633862980168F0019B410 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690633852980168F0019B410 /* NoteViewController.swift */; };
 		69128B3529755761003679BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3429755761003679BA /* AppDelegate.swift */; };
 		69128B3729755761003679BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3629755761003679BA /* SceneDelegate.swift */; };
 		69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3829755761003679BA /* HomeSceneViewController.swift */; };
@@ -41,6 +42,7 @@
 		6906337A298010B20019B410 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		6906337C298010F70019B410 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		6906337D298010F70019B410 /* FavoriteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteTableViewCell.xib; sourceTree = "<group>"; };
+		690633852980168F0019B410 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		69128B3129755761003679BA /* SimpraFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpraFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69128B3429755761003679BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69128B3629755761003679BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		69063384298015BB0019B410 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
+				690633852980168F0019B410 /* NoteViewController.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				69561AB4297FFFC3006A8CD8 /* LocalNotificationManager.swift in Sources */,
 				69561A9F297FEF65006A8CD8 /* HomeScreenViewModel.swift in Sources */,
 				69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */,
+				690633862980168F0019B410 /* NoteViewController.swift in Sources */,
 				69561AAD297FFD7D006A8CD8 /* GameDetailModel.swift in Sources */,
 				69561AB2297FFFAE006A8CD8 /* CoreDataManager.swift in Sources */,
 				69561AB829800060006A8CD8 /* Globals.swift in Sources */,
