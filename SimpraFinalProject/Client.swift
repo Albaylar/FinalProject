@@ -26,3 +26,31 @@ final class RawgClient {
             completion(responseModel?.results, error)
         }
     }
+    static func getGameDetail(gameId: Int, completion: @escaping (GameDetailModel?, Error?) -> Void) {
+        let urlString = apiUrl + "/" + String(gameId) + "?key=" + Headers.apiKey
+        handleResponse(urlString: urlString, responseType: GameDetailModel.self, completion: completion)
+    }
+    
+    static private func handleResponse<T: Decodable>(urlString: String, responseType: T.Type, completion: @escaping (T?, Error?) -> Void) {
+        AF.request(urlString).response { response in
+            guard let data = response.value else {
+                DispatchQueue.main.async {
+                    completion(nil, response.error)
+                }
+                return
+            }
+            let decoder = JSONDecoder()
+            do {
+                let responseObject = try decoder.decode(T.self, from: data!)
+                DispatchQueue.main.async {
+                    completion(responseObject, nil)
+                }
+            }
+            catch {
+                DispatchQueue.main.async {
+                    completion(nil, error)
+                }
+            }
+        }
+    }
+}
