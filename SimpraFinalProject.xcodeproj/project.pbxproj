@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6693FF5DBF5C73F24B438EF8 /* Pods_SimpraFinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FED47001D229097637FC27 /* Pods_SimpraFinalProject.framework */; };
 		69063372298006E60019B410 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063371298006E60019B410 /* SearchViewController.swift */; };
+		69063379298010430019B410 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063378298010430019B410 /* FavoriteViewController.swift */; };
 		69128B3529755761003679BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3429755761003679BA /* AppDelegate.swift */; };
 		69128B3729755761003679BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3629755761003679BA /* SceneDelegate.swift */; };
 		69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3829755761003679BA /* HomeSceneViewController.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		32FED47001D229097637FC27 /* Pods_SimpraFinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpraFinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69063371298006E60019B410 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		69063378298010430019B410 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		69128B3129755761003679BA /* SimpraFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpraFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69128B3429755761003679BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69128B3629755761003679BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		6906337529800F460019B410 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				69063378298010430019B410 /* FavoriteViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				69561AA9297FFC65006A8CD8 /* GameDetailViewController.swift in Sources */,
 				69063372298006E60019B410 /* SearchViewController.swift in Sources */,
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
+				69063379298010430019B410 /* FavoriteViewController.swift in Sources */,
 				69561A9D297FDB92006A8CD8 /* Client.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
 				69561AB62980004F006A8CD8 /* HandleError.swift in Sources */,
