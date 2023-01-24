@@ -16,7 +16,7 @@ class SearchViewController: UIViewController {
     
     //MARK: - Outlets and Variables
     var modalCall:Int?
-   // weak var delegateNote: NoteDetailViewController?
+    weak var delegateNote: NoteDetailViewController?
 
         
     @IBOutlet weak var searchStatusLabel: UISearchBar!
@@ -51,7 +51,7 @@ class SearchViewController: UIViewController {
                                                name: NSNotification.Name("searchGamesErrorMessage"),
                                                object: nil)
         viewModel.delegate = self
-      //  searchBar.becomeFirstResponder()
+       // searchBar.becomeFirstResponder()
     }
     
     //MARK: - Segue Functions
@@ -128,7 +128,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource{
         if let modalCall{
             switch modalCall {
             case 1:
-          //      delegateNote?.setGame(game: viewModel.getGame(at: indexPath.row))
+               delegateNote?.setGame(game: viewModel.getGame(at: indexPath.row))
                 dismiss(animated: true)
             default:
                 tableView.deselectRow(at: indexPath, animated: true)

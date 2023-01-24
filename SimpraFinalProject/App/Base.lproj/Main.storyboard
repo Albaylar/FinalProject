@@ -110,36 +110,36 @@
             <objects>
                 <viewController id="60Z-CM-TPf" customClass="GameDetailViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkN-Ku-BOx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg6-IK-Rbu">
-                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="724"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YMw-b1-TcW">
-                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="393" height="263.00000000000011"/>
+                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="393" height="321.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWe-Ka-h3R">
-                                        <rect key="frame" x="0.0" y="266" width="393" height="52"/>
+                                        <rect key="frame" x="0.0" y="324" width="393" height="52"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publisher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evd-K7-fwJ">
-                                        <rect key="frame" x="0.0" y="318" width="393" height="48"/>
+                                        <rect key="frame" x="0.0" y="376" width="393" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4hz-CQ-c73">
-                                        <rect key="frame" x="0.0" y="366" width="393" height="300"/>
+                                        <rect key="frame" x="0.0" y="424" width="393" height="300"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OK-ok-UgF">
-                                        <rect key="frame" x="171" y="224" width="52" height="35"/>
+                                        <rect key="frame" x="171" y="282" width="52" height="35"/>
                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="star" catalog="system"/>
@@ -202,18 +202,18 @@
             <objects>
                 <viewController id="l46-cp-k3v" customClass="SearchViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGe-xd-5GN">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="kan-N1-gdb">
-                                <rect key="frame" x="0.0" y="103" width="393" height="56"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="l46-cp-k3v" id="aTh-Xc-RSb"/>
                                 </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vaN-2w-kTu">
-                                <rect key="frame" x="0.0" y="169" width="393" height="600"/>
+                                <rect key="frame" x="0.0" y="125" width="393" height="658"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <activityIndicatorView key="tableHeaderView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" id="32W-oX-kav">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
@@ -318,7 +318,7 @@
         <!--Notes-->
         <scene sceneID="rnp-6j-gb7">
             <objects>
-                <viewController id="bse-El-Eit" customClass="NoteViewController" customModule="LegendaryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bse-El-Eit" customClass="NoteViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JPq-sW-iTi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -385,7 +385,7 @@
         <!--Note Detail View Controller-->
         <scene sceneID="mgk-iJ-2UR">
             <objects>
-                <viewController id="bAt-AT-Cgi" customClass="NoteDetailViewController" customModule="LegendaryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bAt-AT-Cgi" customClass="NoteDetailViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HqF-VD-uCa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -442,7 +442,7 @@
                                         <buttonConfiguration key="configuration" style="gray" title="Select a Game"/>
                                         <connections>
                                             <action selector="gameAction:" destination="bAt-AT-Cgi" eventType="touchUpInside" id="nAp-bf-K9A"/>
-                                            <segue destination="l46-cp-k3v" kind="showDetail" id="qu4-6a-dDy"/>
+                                            <segue destination="l46-cp-k3v" kind="showDetail" identifier="" id="qu4-6a-dDy"/>
                                         </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Note Title" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i72-PV-lbN">
@@ -495,7 +495,7 @@
                         <outlet property="noteDetail" destination="vYK-da-HsS" id="nxu-4I-fpk"/>
                         <outlet property="noteTitle" destination="i72-PV-lbN" id="fLN-Fx-Kto"/>
                         <outlet property="saveButton" destination="Yuh-YA-flU" id="hf7-v0-T1O"/>
-                        <segue destination="l46-cp-k3v" kind="show" id="KD8-VP-YOn"/>
+                        <segue destination="l46-cp-k3v" kind="show" identifier="NotetoSearch" id="KD8-VP-YOn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kZl-JW-dmp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -505,7 +505,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="zrj-6s-0BS"/>
-        <segue reference="KD8-VP-YOn"/>
+        <segue reference="qu4-6a-dDy"/>
         <segue reference="Jas-r7-Flo"/>
     </inferredMetricsTieBreakers>
     <resources>
