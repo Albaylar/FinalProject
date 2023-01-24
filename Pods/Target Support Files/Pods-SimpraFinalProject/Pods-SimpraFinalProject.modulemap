@@ -1,0 +1,6 @@
+framework module Pods_SimpraFinalProject {
+  umbrella header "Pods-SimpraFinalProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
