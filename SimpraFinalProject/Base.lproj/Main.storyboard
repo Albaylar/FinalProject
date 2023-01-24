@@ -57,7 +57,7 @@
                         <outlet property="activityIndicator" destination="u2N-Dc-4KB" id="9jV-bn-O3Q"/>
                         <outlet property="gameListTableView" destination="9Uj-cn-SwO" id="NeP-8d-G1W"/>
                         <outlet property="orderButtonOutlet" destination="81v-OG-9Gn" id="CHP-AF-vqY"/>
-                        <segue destination="60Z-CM-TPf" kind="show" id="zbF-cv-58d"/>
+                        <segue destination="60Z-CM-TPf" kind="show" identifier="HometoDetail" id="zbF-cv-58d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFm-iA-3RT" sceneMemberID="firstResponder"/>
