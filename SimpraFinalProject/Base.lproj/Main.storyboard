@@ -78,11 +78,12 @@
                     <connections>
                         <segue destination="7TX-EJ-cwi" kind="relationship" relationship="viewControllers" id="YVv-qG-GY1"/>
                         <segue destination="tB2-B0-G7k" kind="relationship" relationship="viewControllers" id="5fi-Xg-0Ta"/>
+                        <segue destination="3PS-vq-Wru" kind="relationship" relationship="viewControllers" id="nsM-kz-r0r"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHn-Pf-iZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3559.5419847328244" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2979" y="4"/>
         </scene>
         <!--Popular-->
         <scene sceneID="G1z-f6-9iO">
@@ -198,7 +199,7 @@
         <!--Search View Controller-->
         <scene sceneID="Sdx-3h-fuf">
             <objects>
-                <viewController id="l46-cp-k3v" customClass="SearchViewController" customModule="LegendaryApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="l46-cp-k3v" customClass="SearchViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lGe-xd-5GN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -262,6 +263,57 @@
             </objects>
             <point key="canvasLocation" x="4486" y="746"/>
         </scene>
+        <!--Favorite-->
+        <scene sceneID="ZzV-qk-FJQ">
+            <objects>
+                <viewController id="KGc-jf-aia" customClass="FavoriteViewController" customModule="LegendaryApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HUz-9J-uDo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wck-S1-he5">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RVK-x5-a6K"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wck-S1-he5" firstAttribute="leading" secondItem="RVK-x5-a6K" secondAttribute="leading" id="1GA-Gf-jtv"/>
+                            <constraint firstItem="RVK-x5-a6K" firstAttribute="bottom" secondItem="wck-S1-he5" secondAttribute="bottom" id="GvJ-7m-K5B"/>
+                            <constraint firstItem="RVK-x5-a6K" firstAttribute="trailing" secondItem="wck-S1-he5" secondAttribute="trailing" id="VUp-pT-TBV"/>
+                            <constraint firstItem="wck-S1-he5" firstAttribute="top" secondItem="RVK-x5-a6K" secondAttribute="top" id="fdD-hN-Kln"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Favorite" id="K8b-ca-ZVb"/>
+                    <connections>
+                        <outlet property="favoriteListTableView" destination="wck-S1-he5" id="b8u-jf-61B"/>
+                        <segue destination="60Z-CM-TPf" kind="show" identifier="FavoritetoDetail" id="Iy5-hT-dYl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pdh-jq-WtX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5503" y="-737"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="dbw-EZ-dAv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3PS-vq-Wru" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="star.leadinghalf.fill" catalog="system" id="31K-5m-FVJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zYH-WT-3Rd">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KGc-jf-aia" kind="relationship" relationship="rootViewController" id="MkT-dC-Lfw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZf-rc-Lw0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4541" y="-736"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Jas-r7-Flo"/>
@@ -271,6 +323,7 @@
         <image name="list.dash" catalog="system" width="128" height="85"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.leadinghalf.fill" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

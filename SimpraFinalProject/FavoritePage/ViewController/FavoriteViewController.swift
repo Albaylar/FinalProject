@@ -59,7 +59,7 @@ class FavoriteViewController: UIViewController {
             if let gameId = sender as? Int{
                 let goalVC = segue.destination as! GameDetailViewController
                 goalVC.gameId = gameId
-                goalVC.delegateFavorite = self
+    //            goalVC.delegateFavorite = self
             }
         default:
             print("identifier not found")
