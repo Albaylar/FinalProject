@@ -26,3 +26,43 @@
    
    # API
    - https://rawg.io/apidocs
+
+   # ScreenShoot of Project
+   
+      In this Secreen Shoots, we can see a HomePage.
+   
+   ![1](https://user-images.githubusercontent.com/67964948/214385415-6225c4e6-c0d0-470a-9e40-6ed953bf7f9c.png)
+   ![2](https://user-images.githubusercontent.com/67964948/214385702-f84b6660-f4c1-4e80-ab9f-85e411687aeb.png)
+   
+      Detail Screen
+      
+   ![4](https://user-images.githubusercontent.com/67964948/214385940-fa2406dc-ddc7-497c-b59f-bc2f5d5d19bf.png)
+   
+      Search Screen
+      
+   ![5](https://user-images.githubusercontent.com/67964948/214386110-a734905d-3c92-4436-9c97-577e1a4874d5.png)
+   
+      Favorite Screen
+      
+   ![7](https://user-images.githubusercontent.com/67964948/214386529-ce96a38a-38a7-474e-81b1-ae30248b1232.png)
+   
+      Note
+      
+   ![8](https://user-images.githubusercontent.com/67964948/214386658-b4554c5d-8208-4269-b069-8ad15275da9a.png)
+   
+      Note Detail
+      
+   ![9](https://user-images.githubusercontent.com/67964948/214386956-4b072f47-b76b-44fc-bbd3-f2d0c90a5105.png)
+   
+   # Project's Video
+
+
+https://user-images.githubusercontent.com/67964948/214389458-00c8930e-171c-40ca-96a7-160a25a3cfff.mp4
+
+
+
+
+      
+      
+
+
