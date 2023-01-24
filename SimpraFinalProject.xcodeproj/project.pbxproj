@@ -197,6 +197,37 @@
 			path = ModelView;
 			sourceTree = "<group>";
 		};
+		6906338D298033A90019B410 /* NoteDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				69063390298033E20019B410 /* Model */,
+				6906338F298033DB0019B410 /* View */,
+				6906338E298033D00019B410 /* ModelView */,
+			);
+			path = NoteDetailPage;
+			sourceTree = "<group>";
+		};
+		6906338E298033D00019B410 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		6906338F298033DB0019B410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69063390298033E20019B410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		69128B2829755761003679BA = {
 			isa = PBXGroup;
 			children = (
@@ -222,8 +253,9 @@
 				69561A9B297FDB75006A8CD8 /* Core */,
 				69561A91297FC6ED006A8CD8 /* HomePage */,
 				6906337329800F0D0019B410 /* FavoritePage */,
-				690633802980157C0019B410 /* NotePage */,
 				69561AA7297FFBD9006A8CD8 /* GameDetailPage */,
+				690633802980157C0019B410 /* NotePage */,
+				6906338D298033A90019B410 /* NoteDetailPage */,
 				69128B3429755761003679BA /* AppDelegate.swift */,
 				69128B3629755761003679BA /* SceneDelegate.swift */,
 				69128B3A29755761003679BA /* Main.storyboard */,
