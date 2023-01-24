@@ -1,6 +1,6 @@
 # Simpra IOS Swift Bootcamp - FinalProject
 
-   First of all, This project is about Games. You can show a game in a list and create your specific game list. If you want, you can add a note to your selected game. In this project, we have 4 main pages and 2 detail pages. The main pages include a Filtered game, Search, Favorite and Add a Notes Page. However, the details pages are Game Detail Scene and Note Detail Page. In this project, we used RawG game data. Firstly, We looked at the data using Postman. Data came to our page. When we saw this case, we sure to there is no problem with the data. After that, we can use it inside our project.
+   Firstly, This project is about Games. You can show a game in a list and create your specific game list. If you want, you can add a note to your selected game. In this project, we have 4 main pages and 2 detail pages. The main pages include a Filtered game, Search, Favorite and Add a Notes Page. However, the details pages are Game Detail Scene and Note Detail Page. In this project, we used RawG game data. Firstly, We looked at the data using Postman. Data came to our page. When we saw this case, we sure to there is no problem with the data. After that, we can use it inside our project.
    
     In the progress of my project, I used a tool called Trello. A screenshot of the Trello application is given below.
 
@@ -19,6 +19,7 @@
    - Notification Manager
    - SOLID Principles
    - Activity Indicator
+   - Localization
 
    # ThirdPary Library
    - Kingfisher
