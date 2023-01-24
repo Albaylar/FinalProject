@@ -32,11 +32,10 @@
       In this Secreen Shoots, we can see a HomePage.
       
    <img width="500" alt="HomePage" src="https://user-images.githubusercontent.com/67964948/214385415-6225c4e6-c0d0-470a-9e40-6ed953bf7f9c.png">
+   
+   <img width="500" alt="HomePage" src="https://user-images.githubusercontent.com/67964948/214385702-f84b6660-f4c1-4e80-ab9f-85e411687aeb.png">
  
-  - ![1](https://user-images.githubusercontent.com/67964948/214385415-6225c4e6-c0d0-470a-9e40-6ed953bf7f9c.png)
-   
-   ![2](https://user-images.githubusercontent.com/67964948/214385702-f84b6660-f4c1-4e80-ab9f-85e411687aeb.png)
-   
+
       Detail Screen
       
    ![4](https://user-images.githubusercontent.com/67964948/214385940-fa2406dc-ddc7-497c-b59f-bc2f5d5d19bf.png)
