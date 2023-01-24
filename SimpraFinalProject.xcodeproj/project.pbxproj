@@ -18,6 +18,8 @@
 		69561A9D297FDB92006A8CD8 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A9C297FDB92006A8CD8 /* Client.swift */; };
 		69561A9F297FEF65006A8CD8 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A9E297FEF65006A8CD8 /* HomeScreenViewModel.swift */; };
 		69561AA1297FEF93006A8CD8 /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561AA0297FEF93006A8CD8 /* GameListModel.swift */; };
+		69561AA5297FF10B006A8CD8 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561AA3297FF10B006A8CD8 /* GameTableViewCell.swift */; };
+		69561AA6297FF10B006A8CD8 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69561AA4297FF10B006A8CD8 /* GameTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		69561A9C297FDB92006A8CD8 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		69561A9E297FEF65006A8CD8 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
 		69561AA0297FEF93006A8CD8 /* GameListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListModel.swift; sourceTree = "<group>"; };
+		69561AA3297FF10B006A8CD8 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		69561AA4297FF10B006A8CD8 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
 		7618D46AF7B2A8DE60EC3601 /* Pods-SimpraFinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpraFinalProject.debug.xcconfig"; path = "Target Support Files/Pods-SimpraFinalProject/Pods-SimpraFinalProject.debug.xcconfig"; sourceTree = "<group>"; };
 		BBF58E4A42A70DC6E7CB2136 /* Pods-SimpraFinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpraFinalProject.release.xcconfig"; path = "Target Support Files/Pods-SimpraFinalProject/Pods-SimpraFinalProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +108,7 @@
 		69561A91297FC6ED006A8CD8 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				69561AA2297FF0E9006A8CD8 /* View */,
 				69561A96297FC7C3006A8CD8 /* ViewModel */,
 				69561A93297FC70D006A8CD8 /* Model */,
 				69561A92297FC6FB006A8CD8 /* ViewController */,
@@ -141,6 +146,15 @@
 				69561A9C297FDB92006A8CD8 /* Client.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		69561AA2297FF0E9006A8CD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69561AA3297FF10B006A8CD8 /* GameTableViewCell.swift */,
+				69561AA4297FF10B006A8CD8 /* GameTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +220,7 @@
 				69128B4429755762003679BA /* LaunchScreen.storyboard in Resources */,
 				69128B4129755762003679BA /* Assets.xcassets in Resources */,
 				69128B3C29755761003679BA /* Main.storyboard in Resources */,
+				69561AA6297FF10B006A8CD8 /* GameTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +280,7 @@
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
 				69561A9D297FDB92006A8CD8 /* Client.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
+				69561AA5297FF10B006A8CD8 /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
