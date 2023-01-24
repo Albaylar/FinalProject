@@ -19,3 +19,10 @@ final class RawgClient {
             completion(responseModel?.results, error)
         }
     }
+    static func searchGames(gameName:String, completion: @escaping ([RawgModel]?, Error?) -> Void) {
+        let encodedString = gameName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "*"
+        let urlString = apiUrl + "?search_precise=true" + "&search=" + encodedString + "&key=" + Headers.apiKey
+        handleResponse(urlString: urlString, responseType: GetRawgResponseModel.self) { responseModel, error in
+            completion(responseModel?.results, error)
+        }
+    }
