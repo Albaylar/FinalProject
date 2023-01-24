@@ -237,6 +237,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		69063397298035910019B410 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69128B3429755761003679BA /* AppDelegate.swift */,
+				69128B3629755761003679BA /* SceneDelegate.swift */,
+				69128B4029755762003679BA /* Assets.xcassets */,
+				69128B3A29755761003679BA /* Main.storyboard */,
+				69128B4229755762003679BA /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		69063398298035B80019B410 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69561AB52980004F006A8CD8 /* HandleError.swift */,
+				69561AB729800060006A8CD8 /* Globals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		69128B2829755761003679BA = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +279,9 @@
 		69128B3329755761003679BA /* SimpraFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				69128B4529755762003679BA /* Info.plist */,
+				69063398298035B80019B410 /* Extensions */,
+				69063397298035910019B410 /* App */,
 				69063370298006AB0019B410 /* SearchScreen */,
 				69561A9B297FDB75006A8CD8 /* Core */,
 				69561A91297FC6ED006A8CD8 /* HomePage */,
@@ -265,15 +289,6 @@
 				69561AA7297FFBD9006A8CD8 /* GameDetailPage */,
 				690633802980157C0019B410 /* NotePage */,
 				6906338D298033A90019B410 /* NoteDetailPage */,
-				69128B3429755761003679BA /* AppDelegate.swift */,
-				69128B3629755761003679BA /* SceneDelegate.swift */,
-				69128B3A29755761003679BA /* Main.storyboard */,
-				69128B4029755762003679BA /* Assets.xcassets */,
-				69128B4229755762003679BA /* LaunchScreen.storyboard */,
-				69128B4529755762003679BA /* Info.plist */,
-				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
-				69561AB52980004F006A8CD8 /* HandleError.swift */,
-				69561AB729800060006A8CD8 /* Globals.swift */,
 			);
 			path = SimpraFinalProject;
 			sourceTree = "<group>";
@@ -281,7 +296,6 @@
 		69561A91297FC6ED006A8CD8 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				69561AB929800601006A8CD8 /* SearchScreen */,
 				69561AA2297FF0E9006A8CD8 /* View */,
 				69561A96297FC7C3006A8CD8 /* ViewModel */,
 				69561A93297FC70D006A8CD8 /* Model */,
@@ -319,6 +333,7 @@
 			children = (
 				69561A9C297FDB92006A8CD8 /* Client.swift */,
 				69561AB1297FFFAE006A8CD8 /* CoreDataManager.swift */,
+				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
 				69561AB3297FFFC3006A8CD8 /* LocalNotificationManager.swift */,
 			);
 			path = Core;
@@ -365,13 +380,6 @@
 				69561AAF297FFE4C006A8CD8 /* GameDetailViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		69561AB929800601006A8CD8 /* SearchScreen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
