@@ -4,11 +4,11 @@
    
     In the progress of my project, I used a tool called Trello. A screenshot of the Trello application is given below.
 
-     <img width="500" alt="Trello" src="https://user-images.githubusercontent.com/67964948/214383688-12a3b5fa-a4a8-4286-9c81-82460e759122.png">
+ -    <img width="500" alt="Trello" src="https://user-images.githubusercontent.com/67964948/214383688-12a3b5fa-a4a8-4286-9c81-82460e759122.png">
     
     This progress of my project, I used a tool called Postman. A screenshot of the Postman application is a given below. In This screenshot you can see a coming data.
     
-    <img width="500" alt="Postman" src="https://user-images.githubusercontent.com/67964948/214384329-02227dad-869f-486a-88c7-5d380969e08c.png">
+-   <img width="500" alt="Postman" src="https://user-images.githubusercontent.com/67964948/214384329-02227dad-869f-486a-88c7-5d380969e08c.png">
 
 
    
