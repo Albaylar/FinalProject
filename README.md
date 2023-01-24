@@ -10,13 +10,19 @@
     
 -   <img width="500" alt="Postman" src="https://user-images.githubusercontent.com/67964948/214384329-02227dad-869f-486a-88c7-5d380969e08c.png">
 
-
-   
    # Project's building
-- Swift
-- 
-- 
-- Activity Indicator
+   - Swift
+   - MVVM
+   - UIKit
+   - StoryBoard
+   - CoreData
+   - Notification Manager
+   - SOLID Principles
+   - Activity Indicator
+
+   # ThirdPary Library
+   - Kingfisher
+   - Alamofire
    
    # API
    - https://rawg.io/apidocs
