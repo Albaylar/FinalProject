@@ -14,8 +14,7 @@
 		69128B3F29755761003679BA /* SimpraFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */; };
 		69128B4129755762003679BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69128B4029755762003679BA /* Assets.xcassets */; };
 		69128B4429755762003679BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69128B4229755762003679BA /* LaunchScreen.storyboard */; };
-		69561A95297FC746006A8CD8 /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A94297FC746006A8CD8 /* GameListModel.swift */; };
-		69561A98297FD2A9006A8CD8 /* HomeSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A97297FD2A9006A8CD8 /* HomeSceneViewModel.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +27,7 @@
 		69128B4029755762003679BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69128B4329755762003679BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69128B4529755762003679BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69561A94297FC746006A8CD8 /* GameListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListModel.swift; sourceTree = "<group>"; };
-		69561A97297FD2A9006A8CD8 /* HomeSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneViewModel.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +68,7 @@
 				69128B4229755762003679BA /* LaunchScreen.storyboard */,
 				69128B4529755762003679BA /* Info.plist */,
 				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
+				69561A99297FD896006A8CD8 /* Client.swift */,
 			);
 			path = SimpraFinalProject;
 			sourceTree = "<group>";
@@ -184,6 +183,7 @@
 				69561A95297FC746006A8CD8 /* GameListModel.swift in Sources */,
 				69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */,
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
+				69561A9A297FD896006A8CD8 /* Client.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
