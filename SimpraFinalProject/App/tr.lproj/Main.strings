@@ -1,0 +1,63 @@
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "31K-5m-FVJ"; */
+"31K-5m-FVJ.title" = "Favoriler";
+
+/* Class = "UITextView"; text = "Text"; ObjectID = "4hz-CQ-c73"; */
+"4hz-CQ-c73.text" = "Metin";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "81v-OG-9Gn"; */
+"81v-OG-9Gn.title" = "İtem";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8IS-ak-a0N"; */
+"8IS-ak-a0N.normalTitle" = "Buton";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "8OK-ok-UgF"; */
+"8OK-ok-UgF.normalTitle" = "Buton";
+
+/* Class = "UINavigationItem"; title = "Popular Games"; ObjectID = "99q-ah-hrC"; */
+"99q-ah-hrC.title" = "Popüler Oyunlar";
+
+/* Class = "UIButton"; configuration.title = "Select a Game"; ObjectID = "Guj-3F-bEW"; */
+"Guj-3F-bEW.configuration.title" = "Oyun Seç";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Guj-3F-bEW"; */
+"Guj-3F-bEW.normalTitle" = "Buton";
+
+/* Class = "UINavigationItem"; title = "Favorite"; ObjectID = "K8b-ca-ZVb"; */
+"K8b-ca-ZVb.title" = "Favori";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MWe-Ka-h3R"; */
+"MWe-Ka-h3R.text" = "Başlık";
+
+/* Class = "UITabBarItem"; title = "Notes"; ObjectID = "PZX-fd-Pfh"; */
+"PZX-fd-Pfh.title" = "Notlar";
+
+/* Class = "UIButton"; configuration.title = "Save"; ObjectID = "Yuh-YA-flU"; */
+"Yuh-YA-flU.configuration.title" = "Kaydet";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yuh-YA-flU"; */
+"Yuh-YA-flU.normalTitle" = "Buton";
+
+/* Class = "UITabBarItem"; title = "Popular"; ObjectID = "emE-sg-2L0"; */
+"emE-sg-2L0.title" = "Popüler";
+
+/* Class = "UILabel"; text = "Publisher"; ObjectID = "evd-K7-fwJ"; */
+"evd-K7-fwJ.text" = "Yayıncı";
+
+/* Class = "UITextField"; text = "Note Title"; ObjectID = "i72-PV-lbN"; */
+"i72-PV-lbN.text" = "Not Başlığı";
+
+/* Class = "UINavigationItem"; title = "Notes"; ObjectID = "ov2-SL-Rfk"; */
+"ov2-SL-Rfk.title" = "Notlar";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "rkF-Dw-a4j"; */
+"rkF-Dw-a4j.configuration.title" = "İptal";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rkF-Dw-a4j"; */
+"rkF-Dw-a4j.normalTitle" = "Buton";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "vYK-da-HsS"; */
+"vYK-da-HsS.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "vni-Vn-WTu"; */
+"vni-Vn-WTu.title" = "Arama";

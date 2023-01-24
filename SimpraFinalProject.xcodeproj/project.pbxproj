@@ -13,6 +13,13 @@
 		6906337B298010B20019B410 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906337A298010B20019B410 /* FavoriteViewModel.swift */; };
 		6906337E298010F70019B410 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906337C298010F70019B410 /* FavoriteTableViewCell.swift */; };
 		6906337F298010F70019B410 /* FavoriteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6906337D298010F70019B410 /* FavoriteTableViewCell.xib */; };
+		690633862980168F0019B410 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690633852980168F0019B410 /* NoteViewController.swift */; };
+		690633882980174F0019B410 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690633872980174F0019B410 /* NoteViewModel.swift */; };
+		6906338B298017CA0019B410 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063389298017CA0019B410 /* NoteTableViewCell.swift */; };
+		6906338C298017CA0019B410 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6906338A298017CA0019B410 /* NoteTableViewCell.xib */; };
+		69063392298034500019B410 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063391298034500019B410 /* NoteModel.swift */; };
+		690633942980348F0019B410 /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690633932980348F0019B410 /* NoteDetailViewModel.swift */; };
+		69063396298034BC0019B410 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063395298034BC0019B410 /* NoteDetailViewController.swift */; };
 		69128B3529755761003679BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3429755761003679BA /* AppDelegate.swift */; };
 		69128B3729755761003679BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3629755761003679BA /* SceneDelegate.swift */; };
 		69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3829755761003679BA /* HomeSceneViewController.swift */; };
@@ -41,6 +48,15 @@
 		6906337A298010B20019B410 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		6906337C298010F70019B410 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		6906337D298010F70019B410 /* FavoriteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteTableViewCell.xib; sourceTree = "<group>"; };
+		690633852980168F0019B410 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		690633872980174F0019B410 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		69063389298017CA0019B410 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		6906338A298017CA0019B410 /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
+		69063391298034500019B410 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		690633932980348F0019B410 /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
+		69063395298034BC0019B410 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		69063399298038630019B410 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		6906339A298038630019B410 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		69128B3129755761003679BA /* SimpraFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpraFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69128B3429755761003679BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69128B3629755761003679BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +162,104 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		690633802980157C0019B410 /* NotePage */ = {
+			isa = PBXGroup;
+			children = (
+				69063384298015BB0019B410 /* ModelView */,
+				69063383298015A60019B410 /* Model */,
+				690633822980159D0019B410 /* ViewController */,
+				69063381298015950019B410 /* View */,
+			);
+			path = NotePage;
+			sourceTree = "<group>";
+		};
+		69063381298015950019B410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69063389298017CA0019B410 /* NoteTableViewCell.swift */,
+				6906338A298017CA0019B410 /* NoteTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		690633822980159D0019B410 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				690633852980168F0019B410 /* NoteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		69063383298015A60019B410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69063384298015BB0019B410 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				690633872980174F0019B410 /* NoteViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		6906338D298033A90019B410 /* NoteDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				69063390298033E20019B410 /* Model */,
+				6906338F298033DB0019B410 /* View */,
+				6906338E298033D00019B410 /* ViewModel */,
+			);
+			path = NoteDetailPage;
+			sourceTree = "<group>";
+		};
+		6906338E298033D00019B410 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				690633932980348F0019B410 /* NoteDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6906338F298033DB0019B410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69063395298034BC0019B410 /* NoteDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69063390298033E20019B410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69063391298034500019B410 /* NoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69063397298035910019B410 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69128B3429755761003679BA /* AppDelegate.swift */,
+				69128B3629755761003679BA /* SceneDelegate.swift */,
+				69128B4029755762003679BA /* Assets.xcassets */,
+				69128B3A29755761003679BA /* Main.storyboard */,
+				69128B4229755762003679BA /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		69063398298035B80019B410 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69561AB52980004F006A8CD8 /* HandleError.swift */,
+				69561AB729800060006A8CD8 /* Globals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		69128B2829755761003679BA = {
 			isa = PBXGroup;
 			children = (
@@ -167,20 +281,16 @@
 		69128B3329755761003679BA /* SimpraFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				69128B4529755762003679BA /* Info.plist */,
+				69063398298035B80019B410 /* Extensions */,
+				69063397298035910019B410 /* App */,
 				69063370298006AB0019B410 /* SearchScreen */,
 				69561A9B297FDB75006A8CD8 /* Core */,
 				69561A91297FC6ED006A8CD8 /* HomePage */,
 				6906337329800F0D0019B410 /* FavoritePage */,
 				69561AA7297FFBD9006A8CD8 /* GameDetailPage */,
-				69128B3429755761003679BA /* AppDelegate.swift */,
-				69128B3629755761003679BA /* SceneDelegate.swift */,
-				69128B3A29755761003679BA /* Main.storyboard */,
-				69128B4029755762003679BA /* Assets.xcassets */,
-				69128B4229755762003679BA /* LaunchScreen.storyboard */,
-				69128B4529755762003679BA /* Info.plist */,
-				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
-				69561AB52980004F006A8CD8 /* HandleError.swift */,
-				69561AB729800060006A8CD8 /* Globals.swift */,
+				690633802980157C0019B410 /* NotePage */,
+				6906338D298033A90019B410 /* NoteDetailPage */,
 			);
 			path = SimpraFinalProject;
 			sourceTree = "<group>";
@@ -188,7 +298,6 @@
 		69561A91297FC6ED006A8CD8 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				69561AB929800601006A8CD8 /* SearchScreen */,
 				69561AA2297FF0E9006A8CD8 /* View */,
 				69561A96297FC7C3006A8CD8 /* ViewModel */,
 				69561A93297FC70D006A8CD8 /* Model */,
@@ -226,6 +335,7 @@
 			children = (
 				69561A9C297FDB92006A8CD8 /* Client.swift */,
 				69561AB1297FFFAE006A8CD8 /* CoreDataManager.swift */,
+				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
 				69561AB3297FFFC3006A8CD8 /* LocalNotificationManager.swift */,
 			);
 			path = Core;
@@ -274,13 +384,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		69561AB929800601006A8CD8 /* SearchScreen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SearchScreen;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +428,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 69128B2829755761003679BA;
 			productRefGroup = 69128B3229755761003679BA /* Products */;
@@ -344,6 +448,7 @@
 				69128B4429755762003679BA /* LaunchScreen.storyboard in Resources */,
 				69128B4129755762003679BA /* Assets.xcassets in Resources */,
 				6906337F298010F70019B410 /* FavoriteTableViewCell.xib in Resources */,
+				6906338C298017CA0019B410 /* NoteTableViewCell.xib in Resources */,
 				69128B3C29755761003679BA /* Main.storyboard in Resources */,
 				69561AA6297FF10B006A8CD8 /* GameTableViewCell.xib in Resources */,
 			);
@@ -403,20 +508,26 @@
 				69561AB0297FFE4C006A8CD8 /* GameDetailViewModel.swift in Sources */,
 				6906337E298010F70019B410 /* FavoriteTableViewCell.swift in Sources */,
 				69561AA1297FEF93006A8CD8 /* GameListModel.swift in Sources */,
+				69063392298034500019B410 /* NoteModel.swift in Sources */,
 				69561AB4297FFFC3006A8CD8 /* LocalNotificationManager.swift in Sources */,
 				69561A9F297FEF65006A8CD8 /* HomeScreenViewModel.swift in Sources */,
 				69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */,
+				690633862980168F0019B410 /* NoteViewController.swift in Sources */,
 				69561AAD297FFD7D006A8CD8 /* GameDetailModel.swift in Sources */,
 				69561AB2297FFFAE006A8CD8 /* CoreDataManager.swift in Sources */,
 				69561AB829800060006A8CD8 /* Globals.swift in Sources */,
 				69561AA9297FFC65006A8CD8 /* GameDetailViewController.swift in Sources */,
 				69063372298006E60019B410 /* SearchViewController.swift in Sources */,
+				690633882980174F0019B410 /* NoteViewModel.swift in Sources */,
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
+				69063396298034BC0019B410 /* NoteDetailViewController.swift in Sources */,
+				690633942980348F0019B410 /* NoteDetailViewModel.swift in Sources */,
 				69063379298010430019B410 /* FavoriteViewController.swift in Sources */,
 				69561A9D297FDB92006A8CD8 /* Client.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
 				69561AB62980004F006A8CD8 /* HandleError.swift in Sources */,
 				69561AA5297FF10B006A8CD8 /* GameTableViewCell.swift in Sources */,
+				6906338B298017CA0019B410 /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +538,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				69128B3B29755761003679BA /* Base */,
+				69063399298038630019B410 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -435,6 +547,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				69128B4329755762003679BA /* Base */,
+				6906339A298038630019B410 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -446,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -506,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
