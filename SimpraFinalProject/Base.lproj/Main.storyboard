@@ -77,6 +77,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="7TX-EJ-cwi" kind="relationship" relationship="viewControllers" id="YVv-qG-GY1"/>
+                        <segue destination="tB2-B0-G7k" kind="relationship" relationship="viewControllers" id="5fi-Xg-0Ta"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dHn-Pf-iZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -192,12 +193,83 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ze3-Tu-SRP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6898" y="516"/>
+            <point key="canvasLocation" x="7190" y="456"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="Sdx-3h-fuf">
+            <objects>
+                <viewController id="l46-cp-k3v" customClass="SearchViewController" customModule="LegendaryApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lGe-xd-5GN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="kan-N1-gdb">
+                                <rect key="frame" x="0.0" y="103" width="393" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="l46-cp-k3v" id="aTh-Xc-RSb"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vaN-2w-kTu">
+                                <rect key="frame" x="0.0" y="169" width="393" height="600"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <activityIndicatorView key="tableHeaderView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" id="32W-oX-kav">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </activityIndicatorView>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O3i-1C-Avr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="O3i-1C-Avr" firstAttribute="trailing" secondItem="vaN-2w-kTu" secondAttribute="trailing" id="ADW-QG-j75"/>
+                            <constraint firstItem="vaN-2w-kTu" firstAttribute="top" secondItem="kan-N1-gdb" secondAttribute="bottom" constant="10" id="BpY-29-pMe"/>
+                            <constraint firstItem="vaN-2w-kTu" firstAttribute="leading" secondItem="O3i-1C-Avr" secondAttribute="leading" id="Elz-8O-Nid"/>
+                            <constraint firstItem="O3i-1C-Avr" firstAttribute="bottom" secondItem="vaN-2w-kTu" secondAttribute="bottom" id="XZ5-is-iKM"/>
+                            <constraint firstItem="kan-N1-gdb" firstAttribute="top" secondItem="O3i-1C-Avr" secondAttribute="top" id="Yz8-JF-Hr7"/>
+                            <constraint firstItem="kan-N1-gdb" firstAttribute="leading" secondItem="lGe-xd-5GN" secondAttribute="leading" id="pmD-SQ-gaX"/>
+                            <constraint firstItem="O3i-1C-Avr" firstAttribute="trailing" secondItem="kan-N1-gdb" secondAttribute="trailing" id="zKH-hF-6L9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lzi-mK-2US"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="32W-oX-kav" id="is1-y1-SXJ"/>
+                        <outlet property="gameListTableView" destination="vaN-2w-kTu" id="hW0-Of-3w6"/>
+                        <outlet property="searchStatusLabel" destination="kan-N1-gdb" id="ICK-w9-Z4Z"/>
+                        <segue destination="60Z-CM-TPf" kind="show" identifier="SearchtoDetail" id="Jas-r7-Flo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayJ-9W-bOk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5413" y="746"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="vCO-L4-FJI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tB2-B0-G7k" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="vni-Vn-WTu"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PfE-5s-HyP">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="l46-cp-k3v" kind="relationship" relationship="rootViewController" id="bJd-m0-Pf9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vps-Fd-4UV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4486" y="746"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Jas-r7-Flo"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="gamecontroller" catalog="system" width="128" height="79"/>
         <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

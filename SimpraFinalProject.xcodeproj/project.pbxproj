@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6693FF5DBF5C73F24B438EF8 /* Pods_SimpraFinalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FED47001D229097637FC27 /* Pods_SimpraFinalProject.framework */; };
+		69063372298006E60019B410 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69063371298006E60019B410 /* SearchViewController.swift */; };
 		69128B3529755761003679BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3429755761003679BA /* AppDelegate.swift */; };
 		69128B3729755761003679BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3629755761003679BA /* SceneDelegate.swift */; };
 		69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3829755761003679BA /* HomeSceneViewController.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		32FED47001D229097637FC27 /* Pods_SimpraFinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpraFinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69063371298006E60019B410 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		69128B3129755761003679BA /* SimpraFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpraFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69128B3429755761003679BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69128B3629755761003679BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		69063370298006AB0019B410 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				69063371298006E60019B410 /* SearchViewController.swift */,
+			);
+			path = SearchScreen;
+			sourceTree = "<group>";
+		};
 		69128B2829755761003679BA = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		69128B3329755761003679BA /* SimpraFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				69063370298006AB0019B410 /* SearchScreen */,
 				69561A9B297FDB75006A8CD8 /* Core */,
 				69561A91297FC6ED006A8CD8 /* HomeScreen */,
 				69561AA7297FFBD9006A8CD8 /* GameDetail */,
@@ -125,6 +136,7 @@
 		69561A91297FC6ED006A8CD8 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				69561AB929800601006A8CD8 /* SearchScreen */,
 				69561AA2297FF0E9006A8CD8 /* View */,
 				69561A96297FC7C3006A8CD8 /* ViewModel */,
 				69561A93297FC70D006A8CD8 /* Model */,
@@ -208,6 +220,13 @@
 				69561AAF297FFE4C006A8CD8 /* GameDetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		69561AB929800601006A8CD8 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +355,7 @@
 				69561AB2297FFFAE006A8CD8 /* CoreDataManager.swift in Sources */,
 				69561AB829800060006A8CD8 /* Globals.swift in Sources */,
 				69561AA9297FFC65006A8CD8 /* GameDetailViewController.swift in Sources */,
+				69063372298006E60019B410 /* SearchViewController.swift in Sources */,
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
 				69561A9D297FDB92006A8CD8 /* Client.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
