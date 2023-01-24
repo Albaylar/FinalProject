@@ -95,6 +95,45 @@
 			path = SearchScreen;
 			sourceTree = "<group>";
 		};
+		6906337329800F0D0019B410 /* FavoritePage */ = {
+			isa = PBXGroup;
+			children = (
+				6906337729800F900019B410 /* View */,
+				6906337629800F4C0019B410 /* Model */,
+				6906337529800F460019B410 /* ViewController */,
+				6906337429800F430019B410 /* ModelView */,
+			);
+			path = FavoritePage;
+			sourceTree = "<group>";
+		};
+		6906337429800F430019B410 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		6906337529800F460019B410 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6906337629800F4C0019B410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6906337729800F900019B410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		69128B2829755761003679BA = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +157,9 @@
 			children = (
 				69063370298006AB0019B410 /* SearchScreen */,
 				69561A9B297FDB75006A8CD8 /* Core */,
-				69561A91297FC6ED006A8CD8 /* HomeScreen */,
-				69561AA7297FFBD9006A8CD8 /* GameDetail */,
+				69561A91297FC6ED006A8CD8 /* HomePage */,
+				6906337329800F0D0019B410 /* FavoritePage */,
+				69561AA7297FFBD9006A8CD8 /* GameDetailPage */,
 				69128B3429755761003679BA /* AppDelegate.swift */,
 				69128B3629755761003679BA /* SceneDelegate.swift */,
 				69128B3A29755761003679BA /* Main.storyboard */,
@@ -133,7 +173,7 @@
 			path = SimpraFinalProject;
 			sourceTree = "<group>";
 		};
-		69561A91297FC6ED006A8CD8 /* HomeScreen */ = {
+		69561A91297FC6ED006A8CD8 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
 				69561AB929800601006A8CD8 /* SearchScreen */,
@@ -142,7 +182,7 @@
 				69561A93297FC70D006A8CD8 /* Model */,
 				69561A92297FC6FB006A8CD8 /* ViewController */,
 			);
-			path = HomeScreen;
+			path = HomePage;
 			sourceTree = "<group>";
 		};
 		69561A92297FC6FB006A8CD8 /* ViewController */ = {
@@ -188,14 +228,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		69561AA7297FFBD9006A8CD8 /* GameDetail */ = {
+		69561AA7297FFBD9006A8CD8 /* GameDetailPage */ = {
 			isa = PBXGroup;
 			children = (
 				69561AAE297FFDE0006A8CD8 /* ViewModel */,
 				69561AAB297FFD65006A8CD8 /* Model */,
 				69561AAA297FFD54006A8CD8 /* ViewControllers */,
 			);
-			path = GameDetail;
+			path = GameDetailPage;
 			sourceTree = "<group>";
 		};
 		69561AAA297FFD54006A8CD8 /* ViewControllers */ = {
