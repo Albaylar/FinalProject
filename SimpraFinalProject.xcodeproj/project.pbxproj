@@ -14,6 +14,8 @@
 		69128B3F29755761003679BA /* SimpraFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */; };
 		69128B4129755762003679BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69128B4029755762003679BA /* Assets.xcassets */; };
 		69128B4429755762003679BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69128B4229755762003679BA /* LaunchScreen.storyboard */; };
+		69561A95297FC746006A8CD8 /* GameListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A94297FC746006A8CD8 /* GameListModel.swift */; };
+		69561A98297FD2A9006A8CD8 /* HomeSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69561A97297FD2A9006A8CD8 /* HomeSceneViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		69128B4029755762003679BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69128B4329755762003679BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69128B4529755762003679BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69561A94297FC746006A8CD8 /* GameListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListModel.swift; sourceTree = "<group>"; };
+		69561A97297FD2A9006A8CD8 /* HomeSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,9 @@
 		69128B3329755761003679BA /* SimpraFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				69561A91297FC6ED006A8CD8 /* HomeScreen */,
 				69128B3429755761003679BA /* AppDelegate.swift */,
 				69128B3629755761003679BA /* SceneDelegate.swift */,
-				69128B3829755761003679BA /* HomeSceneViewController.swift */,
 				69128B3A29755761003679BA /* Main.storyboard */,
 				69128B4029755762003679BA /* Assets.xcassets */,
 				69128B4229755762003679BA /* LaunchScreen.storyboard */,
@@ -68,6 +72,40 @@
 				69128B3D29755761003679BA /* SimpraFinalProject.xcdatamodeld */,
 			);
 			path = SimpraFinalProject;
+			sourceTree = "<group>";
+		};
+		69561A91297FC6ED006A8CD8 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				69561A96297FC7C3006A8CD8 /* ViewModel */,
+				69561A93297FC70D006A8CD8 /* Model */,
+				69561A92297FC6FB006A8CD8 /* ViewController */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		69561A92297FC6FB006A8CD8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69128B3829755761003679BA /* HomeSceneViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		69561A93297FC70D006A8CD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69561A94297FC746006A8CD8 /* GameListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69561A96297FC7C3006A8CD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				69561A97297FD2A9006A8CD8 /* HomeSceneViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69561A98297FD2A9006A8CD8 /* HomeSceneViewModel.swift in Sources */,
 				69128B3F29755761003679BA /* SimpraFinalProject.xcdatamodeld in Sources */,
+				69561A95297FC746006A8CD8 /* GameListModel.swift in Sources */,
 				69128B3929755761003679BA /* HomeSceneViewController.swift in Sources */,
 				69128B3529755761003679BA /* AppDelegate.swift in Sources */,
 				69128B3729755761003679BA /* SceneDelegate.swift in Sources */,
