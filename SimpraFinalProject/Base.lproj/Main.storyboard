@@ -57,7 +57,7 @@
                         <outlet property="activityIndicator" destination="u2N-Dc-4KB" id="9jV-bn-O3Q"/>
                         <outlet property="gameListTableView" destination="9Uj-cn-SwO" id="NeP-8d-G1W"/>
                         <outlet property="orderButtonOutlet" destination="81v-OG-9Gn" id="CHP-AF-vqY"/>
-                        <segue destination="60Z-CM-TPf" kind="show" id="zbF-cv-58d"/>
+                        <segue destination="60Z-CM-TPf" kind="show" identifier="HometoDetail" id="zbF-cv-58d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFm-iA-3RT" sceneMemberID="firstResponder"/>
@@ -83,11 +83,11 @@
             </objects>
             <point key="canvasLocation" x="3559.5419847328244" y="3.5211267605633805"/>
         </scene>
-        <!--Item-->
+        <!--Popular-->
         <scene sceneID="G1z-f6-9iO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7TX-EJ-cwi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="emE-sg-2L0"/>
+                    <tabBarItem key="tabBarItem" title="Popular" image="gamecontroller" catalog="system" id="emE-sg-2L0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5QL-ew-mza">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
