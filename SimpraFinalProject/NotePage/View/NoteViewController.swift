@@ -32,9 +32,9 @@ class NoteViewController: UIViewController {
                                                name: NSNotification.Name("noteGamesErrorMessage"),
                                                object: nil)
         viewModel.delegate = self
-       // activityIndicator.startAnimating()
+       
         viewModel.fetchNotes()
-        //activityIndicator.stopAnimating()
+        
         
     }
     

@@ -124,7 +124,6 @@
 			children = (
 				6906337729800F900019B410 /* View */,
 				6906337629800F4C0019B410 /* Model */,
-				6906337529800F460019B410 /* ViewController */,
 				6906337429800F430019B410 /* ModelView */,
 			);
 			path = FavoritePage;
@@ -138,14 +137,6 @@
 			path = ModelView;
 			sourceTree = "<group>";
 		};
-		6906337529800F460019B410 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				69063378298010430019B410 /* FavoriteViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		6906337629800F4C0019B410 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +147,7 @@
 		6906337729800F900019B410 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				69063378298010430019B410 /* FavoriteViewController.swift */,
 				6906337C298010F70019B410 /* FavoriteTableViewCell.swift */,
 				6906337D298010F70019B410 /* FavoriteTableViewCell.xib */,
 			);
@@ -165,9 +157,8 @@
 		690633802980157C0019B410 /* NotePage */ = {
 			isa = PBXGroup;
 			children = (
-				69063384298015BB0019B410 /* ModelView */,
+				69063384298015BB0019B410 /* ViewModel */,
 				69063383298015A60019B410 /* Model */,
-				690633822980159D0019B410 /* ViewController */,
 				69063381298015950019B410 /* View */,
 			);
 			path = NotePage;
@@ -176,18 +167,11 @@
 		69063381298015950019B410 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				690633852980168F0019B410 /* NoteViewController.swift */,
 				69063389298017CA0019B410 /* NoteTableViewCell.swift */,
 				6906338A298017CA0019B410 /* NoteTableViewCell.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		690633822980159D0019B410 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				690633852980168F0019B410 /* NoteViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		69063383298015A60019B410 /* Model */ = {
@@ -197,12 +181,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		69063384298015BB0019B410 /* ModelView */ = {
+		69063384298015BB0019B410 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				690633872980174F0019B410 /* NoteViewModel.swift */,
 			);
-			path = ModelView;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		6906338D298033A90019B410 /* NoteDetailPage */ = {
@@ -301,17 +285,8 @@
 				69561AA2297FF0E9006A8CD8 /* View */,
 				69561A96297FC7C3006A8CD8 /* ViewModel */,
 				69561A93297FC70D006A8CD8 /* Model */,
-				69561A92297FC6FB006A8CD8 /* ViewController */,
 			);
 			path = HomePage;
-			sourceTree = "<group>";
-		};
-		69561A92297FC6FB006A8CD8 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				69128B3829755761003679BA /* HomeSceneViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		69561A93297FC70D006A8CD8 /* Model */ = {
@@ -344,6 +319,7 @@
 		69561AA2297FF0E9006A8CD8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				69128B3829755761003679BA /* HomeSceneViewController.swift */,
 				69561AA3297FF10B006A8CD8 /* GameTableViewCell.swift */,
 				69561AA4297FF10B006A8CD8 /* GameTableViewCell.xib */,
 			);
@@ -353,19 +329,11 @@
 		69561AA7297FFBD9006A8CD8 /* GameDetailPage */ = {
 			isa = PBXGroup;
 			children = (
+				69F9726F29811077006C9CD7 /* View */,
 				69561AAE297FFDE0006A8CD8 /* ViewModel */,
 				69561AAB297FFD65006A8CD8 /* Model */,
-				69561AAA297FFD54006A8CD8 /* ViewControllers */,
 			);
 			path = GameDetailPage;
-			sourceTree = "<group>";
-		};
-		69561AAA297FFD54006A8CD8 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				69561AA8297FFC65006A8CD8 /* GameDetailViewController.swift */,
-			);
-			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		69561AAB297FFD65006A8CD8 /* Model */ = {
@@ -382,6 +350,14 @@
 				69561AAF297FFE4C006A8CD8 /* GameDetailViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		69F9726F29811077006C9CD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69561AA8297FFC65006A8CD8 /* GameDetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
