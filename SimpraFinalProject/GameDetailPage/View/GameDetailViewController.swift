@@ -16,7 +16,7 @@ class GameDetailViewController: UIViewController {
     @IBOutlet weak var publisherLabel: UILabel!
     @IBOutlet weak var gameImageView: UIImageView!
     var gameId: Int?
-    //   var delegateFavorite: FavoriteViewController?
+    var delegateFavorite: FavoriteViewController?
     private var viewModel: GameDetailSceneViewModelProtocol = GameDetailSceneViewModel()
     
     //MARK: - Lifecycle Functions
@@ -36,7 +36,7 @@ class GameDetailViewController: UIViewController {
         super.viewWillDisappear(animated)
         if isBeingDismissed {
             if Globals.sharedInstance.isFavoriteChanged{
-                //           delegateFavorite?.viewWillAppear(true)
+                delegateFavorite?.viewWillAppear(true)
             }
         }
     }

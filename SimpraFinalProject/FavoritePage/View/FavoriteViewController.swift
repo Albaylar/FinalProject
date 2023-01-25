@@ -13,13 +13,7 @@ class FavoriteViewController: UIViewController {
     //MARK: - Outlets and Variables
     
     
-    //@IBOutlet weak var statusLabel: UILabel!{
-    //didSet{
-            //statusLabel.text = //NSLocalizedString("NO_FAVORITE", comment: //"You don't Have Favorite")
-            //statusLabel.isHidden = true
-            //  }
-    // }
-    //@IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+
     @IBOutlet private weak var favoriteListTableView: UITableView!{
         didSet{
             favoriteListTableView.delegate = self
@@ -41,7 +35,7 @@ class FavoriteViewController: UIViewController {
                                                object: nil)
         
         viewModel.delegate = self
-//        activityIndicator.startAnimating()
+
         viewModel.fetchFavoriteGames()
         Globals.sharedInstance.isFavoriteChanged = false
     }
@@ -65,7 +59,6 @@ class FavoriteViewController: UIViewController {
             print("identifier not found")
         }
     }
-    
 }
 
 //MARK: - Delegate Functions
@@ -73,7 +66,7 @@ class FavoriteViewController: UIViewController {
 extension FavoriteViewController: FavoriteViewModelDelegate {
     func favoritesLoaded() {
         favoriteListTableView.reloadData()
-        //activityIndicator.stopAnimating()
+
     }
 }
 

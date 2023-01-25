@@ -110,36 +110,36 @@
             <objects>
                 <viewController id="60Z-CM-TPf" customClass="GameDetailViewController" customModule="SimpraFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pkN-Ku-BOx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg6-IK-Rbu">
-                                <rect key="frame" x="0.0" y="59" width="393" height="724"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gamecontroller" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YMw-b1-TcW">
-                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="393" height="321.00000000000011"/>
+                                        <rect key="frame" x="0.0" y="1.6666666666666572" width="393" height="263.00000000000011"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWe-Ka-h3R">
-                                        <rect key="frame" x="0.0" y="324" width="393" height="52"/>
+                                        <rect key="frame" x="0.0" y="266" width="393" height="52"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publisher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evd-K7-fwJ">
-                                        <rect key="frame" x="0.0" y="376" width="393" height="48"/>
+                                        <rect key="frame" x="0.0" y="318" width="393" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4hz-CQ-c73">
-                                        <rect key="frame" x="0.0" y="424" width="393" height="300"/>
+                                        <rect key="frame" x="0.0" y="366" width="393" height="300"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OK-ok-UgF">
-                                        <rect key="frame" x="171" y="282" width="52" height="35"/>
+                                        <rect key="frame" x="171" y="224" width="52" height="35"/>
                                         <color key="tintColor" systemColor="systemYellowColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="star" catalog="system"/>
@@ -506,7 +506,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="zrj-6s-0BS"/>
         <segue reference="qu4-6a-dDy"/>
-        <segue reference="Jas-r7-Flo"/>
+        <segue reference="Iy5-hT-dYl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="gamecontroller" catalog="system" width="128" height="79"/>
